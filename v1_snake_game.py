@@ -49,7 +49,7 @@ if __name__=='__main__': # IF we run our script ,if this is the main process
     game =SnakeGame()
 
     # Game Loop
-    while True:
+    while True: # this is an endless loop it will not quit , press CTRL+C (keyboard Interrupt)
         game.play_step()
 
         # break  if game over 
